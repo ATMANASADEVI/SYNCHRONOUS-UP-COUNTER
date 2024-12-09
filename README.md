@@ -27,20 +27,29 @@ The next flip-flop need only “recognize” that the first flip-flop’s Q outp
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
 **Procedure**
-
-/* write all the steps invloved */
+1.Open quartus II and create New project wizard.
+2. Write the program in Verilog HDL file and run the program.
+3. Download the RTL viewer 
+4. Now open university program VWF and download waveform after the execution.
 
 **PROGRAM**
-
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:
-*/
-
+module exp_11(out,clk,rstn);
+input clk,rstn;
+output reg [3:0]out;
+always @(posedge clk)
+begin
+  if(!rstn)
+    out<=0;
+  else
+    out<= out+1;
+end 
+endmodule
 **RTL LOGIC UP COUNTER**
+![RTL](https://github.com/user-attachments/assets/046a26be-b4af-4385-b2f5-c15668314b11)
 
 **TIMING DIAGRAM FOR IP COUNTER**
+![RTL](https://github.com/user-attachments/assets/51dacb62-4d5f-4b7f-b13b-2960410e2e1f)
 
-**TRUTH TABLE**
 
 **RESULTS**
+Thus the Synchronous-up-counter are designed and the truth tables is verified using Quartus software.
