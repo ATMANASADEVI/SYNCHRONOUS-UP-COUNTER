@@ -48,7 +48,7 @@ endmodule
 ![RTL](https://github.com/user-attachments/assets/046a26be-b4af-4385-b2f5-c15668314b11)
 
 **TIMING DIAGRAM FOR IP COUNTER**
-![RTL](https://github.com/user-attachments/assets/51dacb62-4d5f-4b7f-b13b-2960410e2e1f)
+![Waveform](https://github.com/user-attachments/assets/1c7c8e1e-de28-4021-a0e3-b46cb7c01f36)
 
 
 **RESULTS**
